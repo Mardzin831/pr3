@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="712.0" prefWidth="1415.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerRezyser">
+    <children>
+        <TableView fx:id="tab3" layoutX="95.0" layoutY="35.0" prefHeight="556.0" prefWidth="1270.0">
+            <columns>
+            <TableColumn fx:id="kolId" prefWidth="47.00001525878906" text="Id" />
+                <TableColumn fx:id="kolImie" prefWidth="247.99998474121094" text="Imię" />
+                <TableColumn fx:id="kolNazwisko" prefWidth="282.0" text="Nazwisko" />
+                <TableColumn fx:id="kolData" prefWidth="161.0" text="Data urodzenia" />
+                <TableColumn fx:id="kolSzkola" prefWidth="195.0" text="Szkoła filmowa" />
+            <TableColumn fx:id="kolTytuly" prefWidth="335.0" text="Tytuły reżyserowanych filmów" />
+            </columns>
+        </TableView>
+      <Button fx:id="addRez" layoutX="28.0" layoutY="661.0" mnemonicParsing="false" onAction="#handleAddRez" prefHeight="31.0" prefWidth="121.0" text="Dodaj reżysera" />
+      <TextField fx:id="addImie" layoutX="166.0" layoutY="662.0" />
+      <TextField fx:id="addNazwisko" layoutX="359.0" layoutY="662.0" />
+      <TextField fx:id="addData" layoutX="553.0" layoutY="662.0" prefHeight="31.0" prefWidth="141.0" />
+      <TextField fx:id="addSzkola" layoutX="701.0" layoutY="662.0" />
+      <Label alignment="CENTER" layoutX="225.0" layoutY="629.0" prefHeight="31.0" prefWidth="69.0" text="Imię*" />
+      <Label alignment="CENTER" layoutX="418.0" layoutY="629.0" prefHeight="31.0" prefWidth="69.0" text="Nazwisko*" />
+      <Label alignment="CENTER" layoutX="568.0" layoutY="629.0" prefHeight="31.0" prefWidth="112.0" text="Data urodzenia" />
+      <Label alignment="CENTER" layoutX="739.0" layoutY="629.0" prefHeight="31.0" prefWidth="112.0" text="Szkoła filmowa" />
+      <Button fx:id="delRez" layoutX="28.0" layoutY="614.0" mnemonicParsing="false" onAction="#handleDelRez" prefHeight="31.0" prefWidth="121.0" text="Usuń reżysera" />
+    </children>
+</AnchorPane>

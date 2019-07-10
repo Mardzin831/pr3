@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="651.0" prefWidth="943.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerRecenzje">
+   <children>
+      <TableView fx:id="tab2" layoutX="52.0" layoutY="48.0" prefHeight="556.0" prefWidth="829.0">
+        <columns>
+            <TableColumn fx:id="kolTytul" prefWidth="205.0" text="Tytuł filmu" />
+          <TableColumn fx:id="kolOcena" prefWidth="60.0" text="Ocena" />
+          <TableColumn fx:id="kolZalety" prefWidth="281.0" text="Zalety" />
+            <TableColumn fx:id="kolWady" prefWidth="282.0" text="Wady" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

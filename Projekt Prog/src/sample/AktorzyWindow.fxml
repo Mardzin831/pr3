@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="654.0" prefWidth="1359.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerAktorzy">
+    <children>
+        <TableView fx:id="tab4" layoutX="68.0" layoutY="45.0" prefHeight="556.0" prefWidth="1216.0">
+            <columns>
+                <TableColumn fx:id="kolImie" prefWidth="197.0" text="Imię" />
+                <TableColumn fx:id="kolNazwisko" prefWidth="215.0" text="Nazwisko" />
+                <TableColumn fx:id="kolData" prefWidth="134.0" text="Data urodzenia" />
+            <TableColumn fx:id="kolRola" prefWidth="134.0" text="Rola" />
+                <TableColumn fx:id="kolSzkola" prefWidth="276.0" text="Szkoła aktorska" />
+                <TableColumn fx:id="kolTytuly" prefWidth="259.0" text="W tych filmach występował" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

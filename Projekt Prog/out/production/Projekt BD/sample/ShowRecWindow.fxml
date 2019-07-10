@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="721.0" prefWidth="949.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerShowRec">
+    <children>
+        <TableView fx:id="tab5" layoutX="60.0" layoutY="54.0" prefHeight="556.0" prefWidth="829.0">
+            <columns>
+                <TableColumn fx:id="kolOcena" prefWidth="75.0" text="Ocena" />
+                <TableColumn fx:id="kolZalety" prefWidth="377.99998474121094" text="Zalety" />
+                <TableColumn fx:id="kolWady" prefWidth="376.0" text="Wady" />
+            </columns>
+        </TableView>
+      <Label fx:id="showTytul" alignment="CENTER" layoutX="383.0" layoutY="4.0" prefHeight="50.0" prefWidth="183.0" text="Tytuł" textAlignment="CENTER">
+         <font>
+            <Font size="28.0" />
+         </font></Label>
+      <Button fx:id="addRec" layoutX="20.0" layoutY="666.0" mnemonicParsing="false" onAction="#handleAddRec" prefHeight="31.0" prefWidth="119.0" text="Dodaj recenzję" />
+      <TextField fx:id="addOcena" layoutX="164.0" layoutY="666.0" prefHeight="31.0" prefWidth="38.0" />
+      <TextField fx:id="addZalety" layoutX="221.0" layoutY="666.0" prefHeight="31.0" prefWidth="331.0" />
+      <TextField fx:id="addWady" layoutX="567.0" layoutY="666.0" prefHeight="31.0" prefWidth="331.0" />
+      <Label alignment="CENTER" layoutX="146.0" layoutY="635.0" prefHeight="31.0" prefWidth="74.0" text="Ocena*" />
+      <Label alignment="CENTER" layoutX="353.0" layoutY="635.0" prefHeight="31.0" prefWidth="68.0" text="Zalety" />
+      <Label alignment="CENTER" layoutX="699.0" layoutY="635.0" prefHeight="31.0" prefWidth="68.0" text="Wady" />
+      <Button fx:id="delRec" layoutX="20.0" layoutY="620.0" mnemonicParsing="false" onAction="#handleDelRec" prefHeight="31.0" prefWidth="119.0" text="Usuń recenzję" />
+    </children>
+</AnchorPane>
