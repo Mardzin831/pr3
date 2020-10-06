@@ -21,7 +21,7 @@
             <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver" />
             <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@oraas:1521:ora2018" />
             <property name="javax.persistence.jdbc.user" value="G7_mardzin" />
-            <property name="javax.persistence.jdbc.password" value="SpellForce003" />
+            <property name="javax.persistence.jdbc.password" value="003" />
             <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle12cDialect" />
         </properties>
     </persistence-unit>
